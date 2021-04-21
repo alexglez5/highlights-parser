@@ -104,5 +104,6 @@ C:\Projects\TextParser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.pdb
 C:\Projects\TextParser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.genruntimeconfig.cache
 C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Projects\TextParser\Tests\UnitTests\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
