@@ -43,8 +43,7 @@ namespace TextParser.Services
 
             while (line != string.Empty)
             {
-                await streamReader.ReadLineAsync();
-                await streamReader.ReadLineAsync();
+                await streamReader.ReadLineAsync(); // title
 
                 line = await WriteLineWithLocation(streamReader, streamWriter);
             }
