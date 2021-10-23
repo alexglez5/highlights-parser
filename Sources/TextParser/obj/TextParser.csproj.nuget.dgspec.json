@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\TextParser\\Sources\\TextParser\\TextParser.csproj": {}
+    "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\TextParser\\Sources\\TextParser\\TextParser.csproj": {
+    "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\TextParser\\Sources\\TextParser\\TextParser.csproj",
+        "projectUniqueName": "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj",
         "projectName": "TextParser",
-        "projectPath": "C:\\Projects\\TextParser\\Sources\\TextParser\\TextParser.csproj",
+        "projectPath": "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj",
         "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\TextParser\\Sources\\TextParser\\obj\\",
+        "outputPath": "C:\\Projects\\text-parser\\Sources\\TextParser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -32,7 +32,6 @@ namespace TextParser.Services
         {
             var inputFilePath = $"{parsingCommand.InputFilePath}{parsingCommand.InputFileName}";
             using var streamReader = new StreamReader(inputFilePath);
-            await streamReader.ReadLineAsync(); // ======
             var line = await streamReader.ReadLineAsync(); // title
 
             var outputFilePath = $"{parsingCommand.OutputFilePath}{parsingCommand.OutputFileName}";
@@ -75,6 +74,8 @@ namespace TextParser.Services
             line = await streamReader.ReadLineAsync();
 
             await streamWriter.WriteLineAsync($"- {line}{location}");
+
+            line = await streamReader.ReadLineAsync(); // ==========
 
             return line;
         }

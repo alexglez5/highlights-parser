@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3K3b+QFRHkLfQANL2MI2lqPggu9/uL35gSUm5IxZzZzk5MCzfkqe+evfJrBw7jCHl6e6BW6cauA1M/SOYGlTMw==",
+  "dgSpecHash": "kEOBwQasH9aRlAqXiDVdJlSaacdI1u5W2JQuL4Vsw+3me23Ms7zTws/Zw4SzfJHMY9IhlDxuHA3Z5AZJzU5sMg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TextParser\\Sources\\TextParser\\TextParser.csproj",
+  "projectFilePath": "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\1.1.0\\microsoft.extensions.dependencyinjection.1.1.0.nupkg.sha512",
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\1.1.0\\microsoft.extensions.dependencyinjection.abstractions.1.1.0.nupkg.sha512",
