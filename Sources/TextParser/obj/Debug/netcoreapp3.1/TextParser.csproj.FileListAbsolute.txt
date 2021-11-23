@@ -38,3 +38,4 @@ C:\Projects\text-parser\Sources\TextParser\obj\Debug\netcoreapp3.1\TextParser.pd
 C:\Projects\text-parser\Sources\TextParser\obj\Debug\netcoreapp3.1\TextParser.genruntimeconfig.cache
 C:\Projects\text-parser\Sources\TextParser\obj\Debug\netcoreapp3.1\TextParser.csproj.AssemblyReference.cache
 C:\Projects\text-parser\Sources\TextParser\obj\Debug\netcoreapp3.1\TextParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\text-parser\Sources\TextParser\obj\Debug\netcoreapp3.1\TextParser.csproj.CopyComplete
