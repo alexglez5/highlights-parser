@@ -24,9 +24,9 @@ namespace UnitTests.ServicesTests
             // Arrange
             var parsingCommand = new KindleHighlightsParsingCommand
             {
-                InputFilePath = "C:\\Projects\\TextParser\\Tests\\UnitTests\\ServicesTests\\",
+                InputFilePath = "C:\\Projects\\text-parser\\Tests\\UnitTests\\ServicesTests\\",
                 InputFileName = "sampleKindleHighlights.txt",
-                OutputFilePath = "C:\\Projects\\TextParser\\Tests\\UnitTests\\ServicesTests\\",
+                OutputFilePath = "C:\\Projects\\text-parser\\Tests\\UnitTests\\ServicesTests\\",
                 OutputFileName = "expectedOutput.md"
             };
 
@@ -56,6 +56,8 @@ namespace UnitTests.ServicesTests
             line.Should().Be("- ON WANTING HAPPINESS @ Location 171");
             line = await streamReader.ReadLineAsync();
             line.Should().Be("- spirituality is the most practical thing in the whole wide world. @ Location 179");
+            line = await streamReader.ReadLineAsync();
+            line.Should().Be("- test line with new line @ Location 179");
         } 
     }
 }

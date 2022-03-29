@@ -32,31 +32,51 @@ namespace TextParser.Services
         {
             var inputFilePath = $"{parsingCommand.InputFilePath}{parsingCommand.InputFileName}";
             using var streamReader = new StreamReader(inputFilePath);
-            var line = await streamReader.ReadLineAsync(); // title
-
+            
             var outputFilePath = $"{parsingCommand.OutputFilePath}{parsingCommand.OutputFileName}";
             await using var streamWriter = new StreamWriter(@outputFilePath);
+
+            var line = await streamReader.ReadLineAsync(); // title
+
             await streamWriter.WriteLineAsync($"# {line}");
             await streamWriter.WriteLineAsync();
 
-            line = await WriteLineWithLocation(streamReader, streamWriter);
+            line = await WriteHighlightLinesWithLocation(streamReader, streamWriter);
 
-            while (line != string.Empty)
+            while (!string.IsNullOrEmpty(line))
             {
-                await streamReader.ReadLineAsync(); // title
+                await streamReader.ReadLineAsync(); // skip title
 
-                line = await WriteLineWithLocation(streamReader, streamWriter);
+                line = await WriteHighlightLinesWithLocation(streamReader, streamWriter);
             }
         }
 
-        private async Task<string> WriteLineWithLocation(StreamReader streamReader, StreamWriter streamWriter)
+        private async Task<string> WriteHighlightLinesWithLocation(StreamReader streamReader, StreamWriter streamWriter)
         {
-            var line = await streamReader.ReadLineAsync(); // location line
-            if (line == null)
+            var highlightLocation = await ResolveLocation(streamReader);
+
+            await streamReader.ReadLineAsync(); // skip blank line
+
+            var highlightLine = await streamReader.ReadLineAsync();
+
+            while (!highlightLine.IsEndOfHighlight())
+            {
+                await streamWriter.WriteLineAsync($"- {highlightLine}{highlightLocation}");
+                highlightLine = await streamReader.ReadLineAsync();
+            }
+
+            return highlightLine;
+        }
+
+        private static async Task<string> ResolveLocation(StreamReader streamReader)
+        {
+            var locationLine = await streamReader.ReadLineAsync();
+            if (locationLine == null)
             {
                 return string.Empty;
             }
-            var words = line.Split(' ').ToList();
+
+            var words = locationLine.Split(' ').ToList();
 
             var counter = 0;
             var word = words[0];
@@ -66,17 +86,17 @@ namespace TextParser.Services
                 counter++;
             }
 
-            var number = words[counter].Split('-').First();
-            var location = $" @ Location {number}";
+            var locationFirstNumber = words[counter].Split('-').First();
+            return $" @ Location {locationFirstNumber}";
+        }
 
-            await streamReader.ReadLineAsync(); // blank line
-            line = await streamReader.ReadLineAsync();
-
-            await streamWriter.WriteLineAsync($"- {line}{location}");
-
-            line = await streamReader.ReadLineAsync(); // ==========
-
-            return line;
+    }
+    
+    internal static class StringExtensions
+    {
+        public static bool IsEndOfHighlight(this string str)
+        {
+            return string.IsNullOrEmpty(str) || str.StartsWith("====");
         }
     }
 }

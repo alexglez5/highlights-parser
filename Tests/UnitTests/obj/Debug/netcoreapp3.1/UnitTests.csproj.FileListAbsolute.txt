@@ -208,7 +208,6 @@ C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\runtimes\win\lib
 C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.dll
 C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.pdb
 C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.dll.config
-C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.csprojAssemblyReference.cache
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.AssemblyInfoInputs.cache
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.AssemblyInfo.cs
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.csproj.CoreCompileInputs.cache
@@ -216,3 +215,8 @@ C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.csproj
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.dll
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.pdb
 C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.genruntimeconfig.cache
+C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.deps.json
+C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.runtimeconfig.json
+C:\Projects\text-parser\Tests\UnitTests\bin\Debug\netcoreapp3.1\TextParser.runtimeconfig.dev.json
+C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.csproj.AssemblyReference.cache
+C:\Projects\text-parser\Tests\UnitTests\obj\Debug\netcoreapp3.1\UnitTests.GeneratedMSBuildEditorConfig.editorconfig
