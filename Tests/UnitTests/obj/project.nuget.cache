@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rhxcY0qrdf/oNHIp8ILbY2sv9xhvqRmvYYCkqm4SqhiN9X4gwdr6Q4835jhL9IzYYgjBjm/MZZAJItytEFrb/w==",
+  "dgSpecHash": "8S2qlx1dfbcl16NFBPhd4rFBQBMaaVYN1gHlkWclK68CSA1fmPPaG2cZYPfWc7++dKYJiJyahFxEMpd/AedwkA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\text-parser\\Tests\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -76,7 +76,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
