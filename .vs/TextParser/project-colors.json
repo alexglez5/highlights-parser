@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "43bf2a9b-45c8-4df8-a9a0-8fe611637dab": {
+      "ProjectGuid": "43bf2a9b-45c8-4df8-a9a0-8fe611637dab",
+      "DisplayName": "TextParser",
+      "ColorIndex": 0
+    },
+    "0919c1c6-009e-4ab0-a610-87d278aaa467": {
+      "ProjectGuid": "0919c1c6-009e-4ab0-a610-87d278aaa467",
+      "DisplayName": "UnitTests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
