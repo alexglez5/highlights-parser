@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w7FxIyjfmmHcdRNUWAAOA27GiHH9TY0z686VCH0vuIBvFi3be5TCAhTuitDIZKMqyrbrdwmU4opFePUL6Vs3+g==",
+  "dgSpecHash": "WqIqRnHUnVPiUJZeahVgLglHWadq3QazJKTQCjU5MWvOH7460OrDKkS3Boa5ESFExyqenSRPRONxB+pYkCSavA==",
   "success": true,
   "projectFilePath": "C:\\Projects\\text-parser\\Sources\\TextParser\\TextParser.csproj",
   "expectedPackageFiles": [
@@ -82,9 +82,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
