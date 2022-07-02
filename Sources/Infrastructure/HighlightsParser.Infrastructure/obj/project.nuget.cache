@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oNtnIEXjJTUuqkE0ixL+7SqFADuowMWZ4JTChjhhWysfIIcHnutMALYTgZ7HMaDoxWIz3Y+uMTkpi3NoKNF5FA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
