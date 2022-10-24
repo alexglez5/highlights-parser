@@ -26,17 +26,8 @@ namespace HighlightsParser.ApplicationCore.Services
                 return result;
             }
 
-            var linesCount = lines.Count;
-            if (linesCount % 4 != 0)
-            {
-                _logger.Error(
-                    "Line count must be a multiple of 4, but it is {count} which is not multiple of 4.",
-                    linesCount);
-
-                return result;
-            }
-
-            var linesByTitleDictionary = new Dictionary<string, List<string>>();
+            var linesCount = lines.Count - (lines.Count % 4);            
+            var linesByTitleDictionary = new Dictionary<string, List<string>>();            
             for (var i = 0; i < linesCount; i += 4)
             {
                 var title = lines[i];
