@@ -18,7 +18,7 @@ namespace HighlightsParser.Infrastructure.Integration.Test.Services.FileWriter
 
         private string _content;
 
-        private const string OutputFileFullPath = "C:\\Projects\\text-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileWriter\\Resources\\output file.md";
+        private const string OutputFileFullPath = "C:\\Projects\\highlights-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileWriter\\Resources\\output file.md";
 
         [SetUp]
         public void SetUp()

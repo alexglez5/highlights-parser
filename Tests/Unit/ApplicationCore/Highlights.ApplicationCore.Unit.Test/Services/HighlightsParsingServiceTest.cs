@@ -35,46 +35,46 @@ namespace Highlights.ApplicationCore.Unit.Test.Services
             result.Any().Should().BeFalse();
         }
 
-        [TestCase(2)]
-        [TestCase(5)]
-        [TestCase(13)]
-        public void Parse_WhenNumberOfLinesNotAMultipleOf4_ShouldLogErrorAndReturnEmptyResult(int lineCount)
+        [Test]
+        public void Parse_WhenNotAllMultiLineHighlightsHave3Lines_ShouldReturnGroupsOfContentByHeaderForThoseWith3Lines()
         {
             // Assert
-            var lines = GetRandomList(lineCount);
-            
+            var newLine = Environment.NewLine;
+            var multiLineHighlights = new List<string>
+            {
+                $"header 1{newLine}location 1{newLine}{newLine}content 1",
+                $"header 1{newLine}location 2{newLine}{newLine}content 2",
+                $"header 2{newLine}location 3{newLine}{newLine}content 3",
+                $"header 3{newLine}location 4"
+            };
+
             // Act
-            var result = _sut.Parse(lines);
+            var result = _sut.Parse(multiLineHighlights);
 
             // Assert
-            result.Any().Should().BeFalse();
+            result.Count.Should().Be(2);
+            result.Any(r => r.Title == "header 3").Should().BeFalse();
 
-            A.CallTo(() => _logger.Error(A<string>._, A<object[]>._))
+            A.CallTo(() => this._logger.Warning(
+                    "Ignoring multi line highlight with less than 3 lines. Content: {multiLineHighlight}",
+                    multiLineHighlights.Last()))
                 .MustHaveHappenedOnceExactly();
         }
 
         [Test]
-        public void Parse_WhenNumberOfLinesMultipleOf4_ShouldReturnGroupsOfContentByHeader()
+        public void Parse_When3LinesPerMultiLineHighlight_ShouldReturnGroupsOfContentByHeader()
         {
             // Assert
-            var lines = new List<string>
+            var newLine = Environment.NewLine;
+            var multiLineHighlights = new List<string>
             {
-                "header 1",
-                "location 1",
-                "content 1",
-                "=====",
-                "header 1",
-                "location 2",
-                "content 2",
-                "=====",
-                "header 2",
-                "location 3",
-                "content 3",
-                "====="
+                $"header 1{newLine}location 1{newLine}{newLine}content 1",
+                $"header 1{newLine}location 2{newLine}{newLine}content 2",
+                $"header 2{newLine}location 3{newLine}{newLine}content 3"
             };
 
             // Act
-            var result = _sut.Parse(lines);
+            var result = _sut.Parse(multiLineHighlights);
 
             // Assert
             result.Count.Should().Be(2);

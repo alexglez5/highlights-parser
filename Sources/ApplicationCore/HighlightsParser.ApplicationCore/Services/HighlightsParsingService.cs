@@ -1,11 +1,12 @@
 ﻿using HighlightsParser.ApplicationCore.Models;
+using HighlightsParser.Infrastructure.Extensions;
 using HighlightsParser.Infrastructure.Logging;
 
 namespace HighlightsParser.ApplicationCore.Services
 {
     public interface IHighlightsParsingService
     {
-        List<ParsingResult> Parse(List<string> lines);
+        List<ParsingResult> Parse(List<string> multiLineHighlights);
     }
 
     public class HighlightsParsingService : IHighlightsParsingService
@@ -17,32 +18,41 @@ namespace HighlightsParser.ApplicationCore.Services
             _logger = logger;
         }
 
-        public List<ParsingResult> Parse(List<string> lines)
+        public List<ParsingResult> Parse(List<string> multiLineHighlights)
         {
             var result = new List<ParsingResult>();
 
-            if (!lines.Any())
+            if (!multiLineHighlights.Any())
             {
                 return result;
             }
 
-            var linesCount = lines.Count - (lines.Count % 4);            
-            var linesByTitleDictionary = new Dictionary<string, List<string>>();            
-            for (var i = 0; i < linesCount; i += 4)
+            var highlightsByTitleDictionary = new Dictionary<string, List<string>>();            
+            foreach (var multiLineHighlight in multiLineHighlights)
             {
-                var title = lines[i];
-                var highlight = lines[i + 2];
-                if (linesByTitleDictionary.ContainsKey(title))
+                var highlightLines = multiLineHighlight.SplitByLineExcludingEmptyLines();
+
+                if (highlightLines.Count != 3)
                 {
-                    linesByTitleDictionary[title].Add(highlight);
+                    this._logger.Warning(
+                        "Ignoring multi line highlight with less than 3 lines. Content: {multiLineHighlight}",
+                        multiLineHighlight);
+                    continue;
+                }
+
+                var title = highlightLines[0];
+                var highlight = highlightLines[2];
+                if (highlightsByTitleDictionary.ContainsKey(title))
+                {
+                    highlightsByTitleDictionary[title].Add(highlight);
                 }
                 else
                 {
-                    linesByTitleDictionary.Add(title, new List<string> { highlight });
+                    highlightsByTitleDictionary.Add(title, new List<string> { highlight });
                 }
             }
 
-            foreach (var linesByTitle in linesByTitleDictionary)
+            foreach (var linesByTitle in highlightsByTitleDictionary)
             {
                 var parsingResult = new ParsingResult
                 {

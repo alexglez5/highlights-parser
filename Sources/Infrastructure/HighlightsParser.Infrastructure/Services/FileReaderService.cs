@@ -25,7 +25,7 @@ namespace HighlightsParser.Infrastructure.Services
             {
                 var contents = await File.ReadAllTextAsync(fileFullPath);
 
-                result = contents.SplitByLineExcludingEmptyLines();
+                result = contents.SplitByDividerExcludingEmptyLines();
             }
             catch (Exception ex)
             {

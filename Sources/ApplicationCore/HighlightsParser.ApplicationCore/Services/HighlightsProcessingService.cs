@@ -33,9 +33,9 @@ namespace HighlightsParser.ApplicationCore.Services
 
         public async Task ParseHighlightsFromInputFileToOutputFiles(string inputFileFullPath, string outputFolderFullPath)
         {
-            var fileContent = await _fileReaderService.ReadFromFile(inputFileFullPath);
+            var multiLineHighlights = await _fileReaderService.ReadFromFile(inputFileFullPath);
 
-            var parsingResults = _highlightsParsingService.Parse(fileContent);
+            var parsingResults = _highlightsParsingService.Parse(multiLineHighlights);
 
             var dateForFileName = _timeProvider.GetCurrentDate().ToString("yyyy-MM-dd");
             

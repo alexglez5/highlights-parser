@@ -9,7 +9,7 @@ namespace HighlightsParser.ConsoleApp
 {
     public class Program
     {
-        public static async Task Main(string[] args)
+        public static async Task Main()
         {
             var logger = (ILogger)new LoggerConfiguration()
                 .Enrich.FromLogContext()
@@ -41,7 +41,7 @@ namespace HighlightsParser.ConsoleApp
                 inputFileFullPath,
                 outputFolderFullPath);
 
-            appLogger.Information("Highlights parsing successfully completed.");
+            appLogger.Information("Highlights parsing completed.");
         }
     }
 }

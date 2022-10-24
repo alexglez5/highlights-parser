@@ -16,7 +16,7 @@ namespace HighlightsParser.Infrastructure.Integration.Test.Services.FileReader
 
         private IFileReaderService _sut;
 
-        private const string SourceFileFullPath = "C:\\Projects\\text-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileReader\\Resources\\clippints.txt";
+        private const string SourceFileFullPath = "C:\\Projects\\highlights-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileReader\\Resources\\clippings.txt";
 
         [SetUp]
         public void Setup()
@@ -34,18 +34,10 @@ namespace HighlightsParser.Infrastructure.Integration.Test.Services.FileReader
             var result = await _sut.ReadFromFile(SourceFileFullPath);
 
             // Assert
-            var tittle = "The Decline and Fall of Practically Everybody (Nonpareil Books) (Will Cuppy)";
-            var dividingLine = "==========";
-            result[0].Should().Be(tittle);
-            result[1].Should().Be("- Your Highlight on Location 528-530 | Added on Sunday, June 26, 2022 9:05:56 AM");
-            result[2].Should()
-                .Be(
-                    "There was also a man named Socrates, who went around barefoot asking people to define their terms. He taught that the good life consists in being good and that virtue is knowledge and knowledge is virtue.");
-            result[3].Should().Be(dividingLine);
-            result[4].Should().Be(tittle);
-            result.Last().Should().Be(dividingLine);
-
-            result.Count.Should().Be(12);
+            result.Count.Should().Be(3);
+            result[0].Should().Be("The Decline and Fall of Practically Everybody (Nonpareil Books) (Will Cuppy)\r\n- Your Highlight on Location 528-530 | Added on Sunday, June 26, 2022 9:05:56 AM\r\n\r\nThere was also a man named Socrates, who went around barefoot asking people to define their terms. He taught that the good life consists in being good and that virtue is knowledge and knowledge is virtue.\r\n");
+            result[1].Should().Be("\r\nThe Decline and Fall of Practically Everybody (Nonpareil Books) (Will Cuppy)\r\n- Your Highlight on Location 617-622 | Added on Sunday, June 26, 2022 9:10:51 AM\r\n");
+            result[2].Should().Be("\r\nThe Decline and Fall of Practically Everybody (Nonpareil Books) (Will Cuppy)\r\n- Your Highlight on Location 638-638 | Added on Sunday, June 26, 2022 9:13:01 AM\r\n\r\nAristotle was famous for knowing everything.\r\n");
         }
 
         [Test]
