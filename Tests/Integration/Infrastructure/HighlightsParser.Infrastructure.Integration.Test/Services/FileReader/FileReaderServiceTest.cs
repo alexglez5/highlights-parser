@@ -16,7 +16,7 @@ namespace HighlightsParser.Infrastructure.Integration.Test.Services.FileReader
 
         private IFileReaderService _sut;
 
-        private const string SourceFileFullPath = "C:\\Projects\\highlights-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileReader\\Resources\\clippings.txt";
+        private const string SourceFileFullPath = "C:\\Dev\\highlights-parser\\Tests\\Integration\\Infrastructure\\HighlightsParser.Infrastructure.Integration.Test\\Services\\FileReader\\Resources\\clippings.txt";
 
         [SetUp]
         public void Setup()

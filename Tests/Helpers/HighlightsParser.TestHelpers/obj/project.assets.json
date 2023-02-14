@@ -5219,11 +5219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj",
+      "projectUniqueName": "C:\\Dev\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj",
       "projectName": "HighlightsParser.TestHelpers",
-      "projectPath": "C:\\Projects\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj",
+      "projectPath": "C:\\Dev\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj",
       "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\obj\\",
+      "outputPath": "C:\\Dev\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oNtnIEXjJTUuqkE0ixL+7SqFADuowMWZ4JTChjhhWysfIIcHnutMALYTgZ7HMaDoxWIz3Y+uMTkpi3NoKNF5FA==",
+  "dgSpecHash": "K34UHO80dLr9SAHrM1Gn1rJM2wiXBM0Ady0732vluketjIkw11nliJXLOaLe9frVTD6VJVprdQ5lUTZ7i7bg+A==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
+  "projectFilePath": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512"
   ],

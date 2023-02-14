@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U3roDnqFSI8gYf59FbXIWAVCPP2t883kDDfuMXE78BfZYfLPYArz4h14lUohAULIKYOS0J+jeM61DHmSRJ7nlg==",
+  "dgSpecHash": "JUEcEHcYWDfzHD0D/Z0HrxCmKYaF9WJtMlrFtF/6xXyADQcHzc+INBbLFyNejLI4p5tdT8EgDTvebL7WF2GqUg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\highlights-parser\\Sources\\UI\\HighlightsParser.ConsoleApp\\HighlightsParser.ConsoleApp.csproj",
+  "projectFilePath": "C:\\Dev\\highlights-parser\\Sources\\UI\\HighlightsParser.ConsoleApp\\HighlightsParser.ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

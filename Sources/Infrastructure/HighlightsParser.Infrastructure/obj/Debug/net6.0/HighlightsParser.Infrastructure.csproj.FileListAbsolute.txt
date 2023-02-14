@@ -22,3 +22,15 @@ C:\Projects\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastruc
 C:\Projects\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\refint\HighlightsParser.Infrastructure.dll
 C:\Projects\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.pdb
 C:\Projects\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\ref\HighlightsParser.Infrastructure.dll
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\bin\Debug\net6.0\HighlightsParser.Infrastructure.deps.json
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\bin\Debug\net6.0\HighlightsParser.Infrastructure.dll
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\bin\Debug\net6.0\HighlightsParser.Infrastructure.pdb
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.csproj.AssemblyReference.cache
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.AssemblyInfoInputs.cache
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.AssemblyInfo.cs
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.dll
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\refint\HighlightsParser.Infrastructure.dll
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\HighlightsParser.Infrastructure.pdb
+C:\Dev\highlights-parser\Sources\Infrastructure\HighlightsParser.Infrastructure\obj\Debug\net6.0\ref\HighlightsParser.Infrastructure.dll

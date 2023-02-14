@@ -2079,7 +2079,7 @@
       ]
     },
     "NETStandard.Library/2.0.0": {
-      "sha512": "sn4JwjEN5iNfqc0bd0Qje5oBZBB9wyuNn4GkQvEzfKVnZ3QH0HHoN9exxydlJGptiCMVdAZu7At9TNj0r8Z0yg==",
+      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
       "path": "netstandard.library/2.0.0",
       "files": [
@@ -2728,7 +2728,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.4.0": {
-      "sha512": "RLYB3YOmdz9dE3zMhBFGv3GF74upGjH0nF0G9lFFRLNLsCEMIpiuQsMGv2qE0qdp1JdheVNO8RIRpUKdokiK+g==",
+      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.4.0",
       "files": [
@@ -4286,7 +4286,7 @@
       ]
     },
     "System.Security.Cryptography.ProtectedData/4.4.0": {
-      "sha512": "WwEexvBd+17yfY7fcS+fBGl+HADEfCJuKeDJqBT7D6j6vKwYvfLyGuq2y/MmrKORC6mbYwth7kjinO1mPhTL3g==",
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
       "type": "package",
       "path": "system.security.cryptography.protecteddata/4.4.0",
       "files": [
@@ -4910,11 +4910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
+      "projectUniqueName": "C:\\Dev\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
       "projectName": "Highlights.ApplicationCore.Unit.Test",
-      "projectPath": "C:\\Projects\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
+      "projectPath": "C:\\Dev\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
       "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\obj\\",
+      "outputPath": "C:\\Dev\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4936,11 +4936,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Projects\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj": {
-              "projectPath": "C:\\Projects\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj"
+            "C:\\Dev\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj": {
+              "projectPath": "C:\\Dev\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj"
             },
-            "C:\\Projects\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj": {
-              "projectPath": "C:\\Projects\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj"
+            "C:\\Dev\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj": {
+              "projectPath": "C:\\Dev\\highlights-parser\\Tests\\Helpers\\HighlightsParser.TestHelpers\\HighlightsParser.TestHelpers.csproj"
             }
           }
         }

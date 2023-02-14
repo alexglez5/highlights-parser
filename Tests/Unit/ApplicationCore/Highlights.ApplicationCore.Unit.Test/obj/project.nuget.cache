@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rPDCrn8hY5mH5fNYXzAWleSqmVIghwsUc9EG7moRtBumqcAGjtF0AEpw5dKXLA51IEq+wsEwQHZmH13W9UQVGA==",
+  "dgSpecHash": "/aOQOTcIESA8++wMIvViL1u1tGoV2oI3apNXuwPhQUx8r1gp8D5NIJofRnAq28sa8grfsFWXkviJI09dVnTRPg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
+  "projectFilePath": "C:\\Dev\\highlights-parser\\Tests\\Unit\\ApplicationCore\\Highlights.ApplicationCore.Unit.Test\\Highlights.ApplicationCore.Unit.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\autofixture.autofakeiteasy\\4.17.0\\autofixture.autofakeiteasy.4.17.0.nupkg.sha512",

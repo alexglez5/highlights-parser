@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hR3cuN1A48VB19RmXzsxplT2Lv77E/spI004AY+I4h2/h5g3nymejiRFHUTprxOOV5um37G4OF6egMu6gko6ag==",
+  "dgSpecHash": "q11GeWO0Stp9CqkcJLGqPkjsPuUMLeg7uMK2Mz+9FCEckk6fwazRfcsaa3EQBPlfVX5EQ1OtUFKXtOXhZ94cpw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\highlights-parser\\Tests\\Unit\\Infrastructure\\HighlightsParser.Infrastructure.Unit.Test\\HighlightsParser.Infrastructure.Unit.Test.csproj",
+  "projectFilePath": "C:\\Dev\\highlights-parser\\Tests\\Unit\\Infrastructure\\HighlightsParser.Infrastructure.Unit.Test\\HighlightsParser.Infrastructure.Unit.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\fluentassertions\\6.7.0\\fluentassertions.6.7.0.nupkg.sha512",

@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
       "projectName": "HighlightsParser.Infrastructure",
-      "projectPath": "C:\\Projects\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
+      "projectPath": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\obj\\",
+      "outputPath": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
