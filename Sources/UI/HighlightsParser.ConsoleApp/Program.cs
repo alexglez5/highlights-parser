@@ -37,6 +37,8 @@ namespace HighlightsParser.ConsoleApp
 
             var highlightsProcessingService = serviceProvider.GetService<IHighlightsProcessingService>();
 
+            appLogger.Information("Starting highlights parsing...");
+
             await highlightsProcessingService.ParseHighlightsFromInputFileToOutputFiles(
                 inputFileFullPath,
                 outputFolderFullPath);

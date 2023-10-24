@@ -10,16 +10,14 @@
         "projectUniqueName": "C:\\Dev\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj",
         "projectName": "HighlightsParser.ApplicationCore",
         "projectPath": "C:\\Dev\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\HighlightsParser.ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\alex.gonzalez\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\highlights-parser\\Sources\\ApplicationCore\\HighlightsParser.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alex.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.mia.ulti.io/artifactory/api/nuget/janus-nuget-dev": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -73,16 +73,14 @@
         "projectUniqueName": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
         "projectName": "HighlightsParser.Infrastructure",
         "projectPath": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\HighlightsParser.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\alex.gonzalez\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\highlights-parser\\Sources\\Infrastructure\\HighlightsParser.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alex.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +88,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.mia.ulti.io/artifactory/api/nuget/janus-nuget-dev": {}
         },
         "frameworks": {
           "net6.0": {
@@ -119,7 +118,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -128,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -138,16 +138,14 @@
         "projectUniqueName": "C:\\Dev\\highlights-parser\\Sources\\UI\\HighlightsParser.ConsoleApp\\HighlightsParser.ConsoleApp.csproj",
         "projectName": "HighlightsParser.ConsoleApp",
         "projectPath": "C:\\Dev\\highlights-parser\\Sources\\UI\\HighlightsParser.ConsoleApp\\HighlightsParser.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\Alexander Gonzalez\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\alex.gonzalez\\.nuget\\packages\\",
         "outputPath": "C:\\Dev\\highlights-parser\\Sources\\UI\\HighlightsParser.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Alexander Gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\alex.gonzalez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,7 +153,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.mia.ulti.io/artifactory/api/nuget/janus-nuget-dev": {}
         },
         "frameworks": {
           "net6.0": {
@@ -207,7 +206,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -216,7 +216,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
