@@ -68,8 +68,8 @@ namespace Highlights.ApplicationCore.Unit.Test.Services
             A.CallTo(() => _fileWriterService.WriteToFile(A<string>._, A<string>._))
                 .Invokes(objCall =>
                 {
-                    capturedOutputFileFullPaths.Add(objCall.Arguments[0].ToString());
-                    capturedContents.Add(objCall.Arguments[1].ToString());
+                    capturedOutputFileFullPaths.Add(objCall.Arguments[0].ToString()!);
+                    capturedContents.Add(objCall.Arguments[1].ToString()!);
                 });
 
             // Act

@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HighlightsParser.ApplicationCore.Models
+﻿namespace HighlightsParser.ApplicationCore.Models
 {
     public class ParsingResult
     {
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
-        public List<string> Highlights { get; set; } = new List<string>();
+        public List<string> Highlights { get; set; } = new();
     }
 }

@@ -9,6 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1048763E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B908AAE1-E539-4A6F-AA68-12638ABEB4C4}"
 	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
 		start-app.cmd = start-app.cmd
 	EndProjectSection
 EndProject
@@ -34,15 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighlightsParser.TestHelper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighlightsParser.Infrastructure.Integration.Test", "Tests\Integration\Infrastructure\HighlightsParser.Infrastructure.Integration.Test\HighlightsParser.Infrastructure.Integration.Test.csproj", "{6FA7A117-9815-42D7-B169-D63DD4CE9775}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighlightsParser.ApplicationCore", "Sources\ApplicationCore\HighlightsParser.ApplicationCore\HighlightsParser.ApplicationCore.csproj", "{56ED0F88-30E9-4EB1-B5B9-BF462C4C3C6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighlightsParser.ApplicationCore", "Sources\ApplicationCore\HighlightsParser.ApplicationCore\HighlightsParser.ApplicationCore.csproj", "{56ED0F88-30E9-4EB1-B5B9-BF462C4C3C6C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "ApplicationCore", "{34FFBD73-8CB3-4991-AD30-2CB891F58CDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Highlights.ApplicationCore.Unit.Test", "Tests\Unit\ApplicationCore\Highlights.ApplicationCore.Unit.Test\Highlights.ApplicationCore.Unit.Test.csproj", "{8840E2C7-BBE7-4219-91DE-831FAB9F7870}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Highlights.ApplicationCore.Unit.Test", "Tests\Unit\ApplicationCore\Highlights.ApplicationCore.Unit.Test\Highlights.ApplicationCore.Unit.Test.csproj", "{8840E2C7-BBE7-4219-91DE-831FAB9F7870}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{44DD06B8-9B40-4822-84AF-E1F596E50443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighlightsParser.Infrastructure.Unit.Test", "Tests\Unit\Infrastructure\HighlightsParser.Infrastructure.Unit.Test\HighlightsParser.Infrastructure.Unit.Test.csproj", "{A6C723F7-D492-44B1-99C1-FE4E46C88846}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighlightsParser.Infrastructure.Unit.Test", "Tests\Unit\Infrastructure\HighlightsParser.Infrastructure.Unit.Test\HighlightsParser.Infrastructure.Unit.Test.csproj", "{A6C723F7-D492-44B1-99C1-FE4E46C88846}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
